@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AddressBook</title>
+        <link rel="stylesheet" type="text/css" href="Address.css">
+        <link rel="Icon" type= "Image" href = "Image/add_Fav_icon.png">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    </head>
+    <body>
+        <header class="header-content ">
+            <div class="logo-content">
+                <img src="Image/AddressBook_Icon.png" alt="">
+
+                <div>
+                    <span class="Add">ADDRESS</span><br>
+                    <span class="Add Book">BOOK</span>
+                </div>
+                <div>
+                    <p class = "Title">Add Person AddressBook UI/UX Design</p>
+                </div>
+            </div>            
+        </header>
+        <div class = "form-content">
+            <form class="form" id="form" action="#" method="get">
+                <div class="form-head">PERSON ADDRESS FORM</div>
+                <div class = "form-details"> 
+                    <input class= "input name" name="name" for="name" type="text" id="name" placeholder="Name">
+                    <textarea class=" input address1"  placeholder="Address"></textarea>
+                    <input class= "input phonenumber" type="text" placeholder="Phone Number">
+                    <select class = "input place city" name="city" id="city" for="city" placeholder = "select-City"> 
+                        <option>Vijayawada</option>
+                        <option>Alwal</option>
+                        <option>Pune</option>
+                        <option>Mumbai</option>                        
+                    </select>
+                    <select class = "input place state" id="state" name="state" for="state" placeholder = "Select-State"> 
+                        <option>Andhra pradesh</option>
+                        <option>Telangana</option>
+                        <option>Maharashtra</option>
+                        <option>Karnataka</option>                        
+                    </select>
+                    <input class= "input place zip" type="text" placeholder="zip">
+                    <button type="submit" class="btn btn-success">Submit</button>
+                </div>
+                
+            </form>
+            <div class="card card2"  style="width: 55rem; margin:100px 200px;">
+                <p class="Title title2" >Details in Address Book</p>
+                <ul id="data">
+                
+                    <li>Name</li>
+                    <li>City</li>
+                    <li>State</li>
+                </ul>
+            </div>
+        </div>
+        <script src="Address.js"></script>
+    </body>
+</html>
