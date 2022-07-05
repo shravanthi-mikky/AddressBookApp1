@@ -1,0 +1,146 @@
+.header-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid black;
+}
+
+.logo-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 0px solid black;
+    width : 80%;
+    padding: 5px;
+}
+.Title{
+    font-weight: bold;
+    padding-left: 100px;
+    color: rgb(0, 0, 255);
+    text-decoration: underline;
+    font-size: x-large;
+}
+.logo-content img{
+    border: solid 1px #42515f ;
+    height: 5%;
+    width: 5%;
+}
+.Add{
+    font-size:x-large;
+    padding: 5px;
+    color: rgb(91, 91, 223);
+    font-weight: bold;
+}
+.Book{
+    color: #0d0101;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 50px 200px 50px 200px;
+    padding: 0px;
+}
+.form-head{
+    background-color: rgb(77, 155, 186);
+    margin-left: 0px;
+    font-size:x-large;
+    padding: 10px 280px 10px 280px;
+    color: white;
+}
+.form-details{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    box-shadow:3px 3px 3px 3px rgb(180, 132, 214);
+}
+.input {
+    width:80%;
+    margin-bottom: 15px;
+    padding: 8px;
+    box-shadow:3px 3px 3px 3px rgb(180, 132, 214);
+    border-radius: 5px;
+}
+.place{
+    height: 30; 
+}
+button{
+    width:20%;
+}
+@media screen and (max-width:1000px){
+    .form-head{
+        background-color: rgb(4, 50, 68);
+        margin-left: 0px;
+        font-size:x-large;
+        padding: 10px 50px 10px 50px;
+        color: white;
+    }
+    .form {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+        margin: 50px 50px 50px 50px;
+        padding: 0px;
+    }
+    .Add{
+        font-size:medium;
+        padding: 5px;
+        color: rgb(91, 91, 223);
+        font-weight: bold;
+    }
+    .Title{
+        font-size: large;
+        padding-left: 50px;
+    }
+}
+@media screen and (min-width:1000px)and (max-width:1240px){
+    .form-head{
+        background-color: rgb(47, 158, 202);
+        margin-left: 0px;
+        font-size:x-large;
+        padding: 10px 50px 10px 50px;
+        color: white;
+    }
+    .form {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+        margin: 50px 200px 50px 200px;
+        padding: 0px;
+    }
+    .Add{
+        font-size:medium;
+        padding: 5px;
+        color: rgb(91, 91, 223);
+        font-weight: bold;
+    }
+    .Title{
+        font-size: large;
+        padding-left: 50px;
+    }
+    button{
+        width:30%;
+    }
+}
+ul{
+    list-style:none;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    justify-content:center;
+    width:25vw;
+    margin:250px;
+    
+  }
+  ul li{
+    text-align:center;
+    padding:5px 30px;
+    border:1px solid black;
+  }
+  .card2{
+    box-shadow:3px 3px 3px 3px rgb(180, 132, 214);
+  }
+  .title2{
+    text-align:center;
+    padding:0px;
+  }
